@@ -1,3 +1,7 @@
+###
+### WARNING!! , The official docker image openjdk:8-jdk-alpine doesn't upgrade anymore , and the jdk version still at 
+### So it will need to create openjdk image by yourself , or just using other distribution open source jdk
+###
 FROM openjdk:8-jdk-alpine
 # Install font var cURL , doc: https://www.jianshu.com/p/e39ee0cad05b
 RUN echo -e "https://mirror.tuna.tsinghua.edu.cn/alpine/v3.4/main\n\
